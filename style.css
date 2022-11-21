@@ -88,12 +88,12 @@ img{
 }
 
 section{
-    display: flex;
-    margin-left: 50px;
+    display: inline-block;
+    /* margin-left: 50px; */
 }
 
 footer {
-    position: fixed;
+    /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
@@ -154,13 +154,11 @@ footer {
       
 
       .centerImage {
-        display: flex;
-        margin-left: auto;
+        /* margin-left: auto; */
         margin-right: auto;
-        width: 50%;
-        padding-top: 130px;
+        width: 25%;
+        padding-top: 100px;
         padding-left: 50px;
-        justify-content: center;
       }
 
       .description{
@@ -231,4 +229,107 @@ footer {
       img:hover{
         /* filter: grayscale(100%); */
         filter: blur(5px);
+      }
+
+      .bgimg{
+        display: none;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -1;
+      }
+
+   
+
+      @media only screen and (max-width: 768px) {
+        .logo{
+          position: absolute;
+          width: 50%;
+          top: 50px;
+          left: 25%;
+        }
+
+        a{
+          margin-top: 31vw;
+          align-content: center;
+        }
+
+
+        h1{
+          display:block;
+          font-size: 7vw;
+          margin-top: 4vw;
+          margin-bottom: 3vw;
+          text-align: center;
+        }
+
+
+        footer{
+          display: none;
+        }
+
+        section{
+          width: 100%;
+        }
+
+        .dropdown-content {
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 110px;
+          min-height: 10px;
+          box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: black;
+          /* padding: 2px 13px; */
+          text-decoration: none;
+          display: block;
+        }
+
+        .bgimg {
+          display: block;
+          filter: blur(3px);
+          position: fixed;
+          right: 0;
+          bottom: 0;
+          min-width: 100%;
+          min-height: 100%;
+          z-index: -1;
+       }
+    
+       .bgvideo {
+          display: none;
+       }
+
+        ul, .main-menu{
+          /* text-align: center; */
+          display: inline-block;
+        }
+
+        .description .centerImage{
+          padding-left: 50px;
+          justify-content: center;
+
+        }
+
+        .description{
+          text-align: center;
+        }
+
+        .solid-borders div{
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+        }
+
+        .solid-borders h2, .solid-borders p{
+          text-align: left;
+        }
+
+        .centerImage img{
+          margin-left: auto;
+          margin-right: auto;
+        }
+
       }
