@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&display=swap');
+
+.st0{fill:#FFFFFF;}
+.st1{font-family:'BodoniMT';}
+.st2{font-size:14.1227px;}
+.logo{
+    width: 100px;
+    position:absolute;
+    top:10px;
+    left:10px;
+    transition: ease 1s;
+}
+
+.logo:hover{
+    width: 150px;
+    transform: rotate(360deg);
+    transition: ease 1s;
+}
+
+nav{
+    text-align: right;
+    overflow: hidden;
+    margin: 20px;
+    font-family: 'Oswald', sans-serif;
+    display: block;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    display: block;
+    padding: 3;
+}
+
+nav, a{
+    margin-right: 10;
+    text-decoration: none;
+    font-family: 'Archivo', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bgvideo{
+    position:fixed;
+    right:0;
+    bottom:0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+
+}
+
+p, h2{
+    color: white;
+}
+
+h2{
+    font-family: 'Archivo', sans-serif;
+}
+
+article{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    max-width: 100%;
+    width: 400px;
+}
+
+h1{
+    color: white;
+    font-size: 80px;
+    font-family: 'Archivo', sans-serif;
+    margin: 30px;
+}
+
+img{
+    width: 400;
+    height: 300;
+}
+
+section{
+    display: flex;
+    margin-left: 50px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* background-color: black; */
+    color: white;
+  }
+
+  .left{
+    text-align:left;
+    float:left;
+    margin-left: 40px;
+    }
+    .centered{
+        text-align:center;
+        }
+    .right{
+    float:right;
+    text-align:right;
+    margin-right: 40px;
+    }
+    
+    a{
+        color: white;
+    }
+
+    .container {
+        /* border: 1px solid rgb(165, 165, 165, 0.5);
+        background-color: black; */
+        display: inline-block;
+
+    }
+      
+      .dropdown {
+        /* position: relative; */
+        display: inline-block;
+
+      }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {background-color: #ddd;}
+      
+      .dropdown:hover .dropdown-content {display: block;}
+      
+
+      .centerImage {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding-top: 130px;
+        padding-left: 50px;
+        justify-content: center;
+      }
+
+      .description{
+        text-align: left;
+        padding-left: 10px;
+        padding-bottom: 300px;
+      }
+
+      .description h1{
+        margin: 1;
+      }
+      
+      .description p{
+        padding-left: 5px;
+        padding-right: 10px;
+      }
+
+      .button {
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        
+      }
+
+      .button5 {
+        background-color: white;
+        font-family: 'Inter Tight', sans-serif;
+        color: black;
+        border: 2px solid #555555;
+        }
+
+      .button5:hover {
+        background-color: #555555;
+        color: white;
+      }
+
+      .centerImage img{
+        width: 500;
+        height: 400;
+      }
+
+      a:hover{
+        color: black;
+        transition: 1s;
+      }
+
+      a{
+        transition:1s;
+      }
+
+      article p{
+        text-align: left;
+      }
+
+      h3, p{
+        text-align: left;
+        font-family: 'Quicksand', sans-serif;
+        color: white;
+      }
+
+      img:hover{
+        /* filter: grayscale(100%); */
+        filter: blur(5px);
+      }
